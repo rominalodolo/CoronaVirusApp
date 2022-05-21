@@ -52,3 +52,8 @@ How to add a dependency in IntelliJ:
 ![dependency](https://user-images.githubusercontent.com/83961643/169667537-c470f44f-ea4d-4928-b475-fd0287c7c259.jpeg)
 
 [Link of resources](https://www.jetbrains.com/idea/guide/tutorials/migrating-junit4-junit5/adding-dependencies/)
+
+
+Adding in more code: 
+![header](https://user-images.githubusercontent.com/83961643/169667855-9671d73a-8d72-43fa-bad9-d2bc9782fa22.jpeg)
+
