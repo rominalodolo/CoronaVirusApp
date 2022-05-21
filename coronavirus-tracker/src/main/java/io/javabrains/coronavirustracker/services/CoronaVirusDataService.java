@@ -15,6 +15,6 @@ public class CoronaVirusDataService {
                 .uri(URI.create(VIRUS_DATA_URL))
                 .build();
         HttpResponse<String> httpResponse = client.send(request, HttpResponse.BodyHandler.ofString());
-
+        System.out.println(httpResponse.body());
     }
 }
