@@ -33,3 +33,15 @@ Pulling the corona virus data from the online csv file from github
 Website for more dependencies and add ons for the CSV file sorting/styling
 [View it here](https://commons.apache.org/proper/commons-csv/user-guide.html)
 
+```
+<dependency>
+    <groupId>org.apache.commons</groupId>
+    <artifactId>commons-csv</artifactId>
+    <version>1.9.0</version>
+</dependency>
+```
+
+[Link for the dependency page](https://commons.apache.org/proper/commons-csv/index.html)
+
+[Java Docs](https://javadoc.io/doc/org.apache.commons/commons-csv/latest/index.html)
+![docs](https://user-images.githubusercontent.com/83961643/169667162-647f477b-e7d1-446d-9fde-8886127f8692.jpeg)
