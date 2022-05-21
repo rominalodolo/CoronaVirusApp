@@ -1,7 +1,9 @@
 package io.javabrains.coronavirustracker.services;
 
+import java.net.URI;
 import java.net.http.HttpClient;
 import java.net.http.HttpRequest;
+import java.net.http.HttpResponse;
 
 public class CoronaVirusDataService {
 
@@ -9,7 +11,10 @@ public class CoronaVirusDataService {
 
     public void fetchVirusData() {
         HttpClient client = HttpClient.newHttpClient();
-        HttpRequest.newBuilder()
+        HttpRequest request = HttpRequest.newBuilder()
+                .uri(URI.create(VIRUS_DATA_URL))
+                .build();
+        HttpResponse<String> HttpResponse = client.send(request, HttpResponse.BodyHandler.ofString());
 
     }
 }
