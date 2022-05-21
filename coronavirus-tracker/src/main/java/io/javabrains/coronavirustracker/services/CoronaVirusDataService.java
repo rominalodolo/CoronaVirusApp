@@ -20,7 +20,7 @@ public class CoronaVirusDataService {
         HttpRequest request = HttpRequest.newBuilder()
                 .uri(URI.create(VIRUS_DATA_URL))
                 .build();
-        HttpResponse<String> httpResponse = client.send(request, HttpResponse.BodyHandler.ofString());
+        HttpResponse<String> httpResponse = client.send(request, HttpResponse.BodyHandlers.ofString());
         System.out.println(httpResponse.body());
     }
 }
