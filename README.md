@@ -44,4 +44,10 @@ Website for more dependencies and add ons for the CSV file sorting/styling
 [Link for the dependency page](https://commons.apache.org/proper/commons-csv/index.html)
 
 [Java Docs](https://javadoc.io/doc/org.apache.commons/commons-csv/latest/index.html)
+
 ![docs](https://user-images.githubusercontent.com/83961643/169667162-647f477b-e7d1-446d-9fde-8886127f8692.jpeg)
+
+How to add a dependency in IntelliJ:
+![dependency](https://user-images.githubusercontent.com/83961643/169667537-c470f44f-ea4d-4928-b475-fd0287c7c259.jpeg)
+
+[Link of resources](https://www.jetbrains.com/idea/guide/tutorials/migrating-junit4-junit5/adding-dependencies/)
