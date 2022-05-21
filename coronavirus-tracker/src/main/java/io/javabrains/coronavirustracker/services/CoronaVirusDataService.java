@@ -26,7 +26,7 @@ public class CoronaVirusDataService {
         System.out.println(httpResponse.body());
 
 
-        Iterable<CSVRecord> records = CSVFormat.RFC4180.withFirstRecordAsHeader().parse(in);
+        Iterable<CSVRecord> records = CSVFormat.DEFAULT.withFirstRecordAsHeader().parse(in);
         for (CSVRecord record : records) {
             String id = record.get("ID");
             String customerNo = record.get("CustomerNo");
