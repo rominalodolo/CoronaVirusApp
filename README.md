@@ -57,3 +57,5 @@ How to add a dependency in IntelliJ:
 Adding in more code: 
 ![header](https://user-images.githubusercontent.com/83961643/169667855-9671d73a-8d72-43fa-bad9-d2bc9782fa22.jpeg)
 
+Issues with the code insert due to depreciated dependencies. 
+![depreciated](https://user-images.githubusercontent.com/83961643/169668106-73830fed-d497-4fd1-aa62-64ed211a5be9.jpeg)
