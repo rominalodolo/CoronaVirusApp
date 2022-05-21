@@ -24,3 +24,9 @@ koushikkothagal / coronavirus-tracker *github rep*
 The uploaded file in IntelliJ IDEA
 
 ![pomdependenciesloaded](https://user-images.githubusercontent.com/83961643/169647486-60d733fe-398c-4df2-8f66-9f54118acbf6.jpeg)
+
+
+Pulling the corona virus data from the online csv file from github 
+
+![workingdataserviceHttpresponse](https://user-images.githubusercontent.com/83961643/169666935-a0c24629-8263-47ec-8f6e-0b7494456802.jpeg)
+
