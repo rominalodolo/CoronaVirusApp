@@ -77,3 +77,5 @@ Running the app with the home controller and home template working
 
 ![working app](https://user-images.githubusercontent.com/83961643/169703482-0db9fc0a-d39c-48fe-9860-feeb9bca573e.jpeg)
 
+Copying more code from Thymeleaf docs
+![copy](https://user-images.githubusercontent.com/83961643/169704325-7151030a-dff1-4449-bc14-bba8a6c3e70c.jpeg)
