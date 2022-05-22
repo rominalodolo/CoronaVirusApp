@@ -63,3 +63,7 @@ Issues with the code insert due to depreciated dependencies.
 ![depreciate](https://user-images.githubusercontent.com/83961643/169685703-3a87700a-17ef-48a5-a0f5-ec608bef4cb4.jpeg)
 
 [docs.oracle](https://docs.oracle.com/javase/7/docs/technotes/guides/javadoc/deprecation/deprecation.html)
+
+Running the app to pull the state/province info
+![run](https://user-images.githubusercontent.com/83961643/169686182-5e737af7-3dfb-49eb-9192-f68807cc958f.jpeg)
+![state](https://user-images.githubusercontent.com/83961643/169686206-3136ba4f-2380-4cbc-b10d-479985a765d3.jpeg)
