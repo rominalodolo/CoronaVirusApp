@@ -59,3 +59,7 @@ Adding in more code:
 
 Issues with the code insert due to depreciated dependencies. 
 ![depreciated](https://user-images.githubusercontent.com/83961643/169668106-73830fed-d497-4fd1-aa62-64ed211a5be9.jpeg)
+
+![depreciate](https://user-images.githubusercontent.com/83961643/169685703-3a87700a-17ef-48a5-a0f5-ec608bef4cb4.jpeg)
+
+[docs.oracle](https://docs.oracle.com/javase/7/docs/technotes/guides/javadoc/deprecation/deprecation.html)
