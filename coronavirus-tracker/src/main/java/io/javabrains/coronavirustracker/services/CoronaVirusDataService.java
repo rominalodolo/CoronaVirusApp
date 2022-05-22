@@ -37,8 +37,13 @@ public class CoronaVirusDataService {
         @Deprecated
         Iterable<CSVRecord> records = CSVFormat.DEFAULT.withFirstRecordAsHeader().parse(csvBodyReader);
         for (CSVRecord record : records) {
-            String state = record.get("Province/State");
-            System.out.println(state);
+            LocationStats locationStats = new LocationStats();
+            locationStats.setState(record.get("Province/State"));
+            locationStats.setCountry(record.get("Country/Region"));
+            locationStats.setLatestTotalCases(Integer.parseInt(record.get(record.size()-1)));
+
+//            String state = record.get("Province/State");
+//            System.out.println(state);
 //            String customerNo = record.get("CustomerNo");
 //            String name = record.get("Name");
         }
