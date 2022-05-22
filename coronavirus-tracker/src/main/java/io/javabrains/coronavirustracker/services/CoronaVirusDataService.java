@@ -44,7 +44,6 @@ public class CoronaVirusDataService {
 
             System.out.println(locationStats);
             newStats.add(locationStats);
-
 //            String state = record.get("Province/State");
 //            System.out.println(state);
 //            String customerNo = record.get("CustomerNo");
