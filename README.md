@@ -72,3 +72,8 @@ Running the app to pull the state/province info
 ### Thymeleaf Docs 
 [Read more here](https://www.thymeleaf.org/documentation.html)
 ![thymleaf](https://user-images.githubusercontent.com/83961643/169703325-8914c0ed-eeab-4492-92e3-8e9ae5375e9c.jpeg)
+
+Running the app with the home controller and home template working 
+
+![working app](https://user-images.githubusercontent.com/83961643/169703482-0db9fc0a-d39c-48fe-9860-feeb9bca573e.jpeg)
+
