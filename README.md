@@ -67,3 +67,8 @@ Issues with the code insert due to depreciated dependencies.
 Running the app to pull the state/province info
 ![run](https://user-images.githubusercontent.com/83961643/169686182-5e737af7-3dfb-49eb-9192-f68807cc958f.jpeg)
 ![state](https://user-images.githubusercontent.com/83961643/169686206-3136ba4f-2380-4cbc-b10d-479985a765d3.jpeg)
+![runningstats](https://user-images.githubusercontent.com/83961643/169703307-b1b8eb3f-6207-4be3-aae9-b21cb1fe72a4.jpeg)
+
+### Thymeleaf Docs 
+[Read more here](https://www.thymeleaf.org/documentation.html)
+![thymleaf](https://user-images.githubusercontent.com/83961643/169703325-8914c0ed-eeab-4492-92e3-8e9ae5375e9c.jpeg)
