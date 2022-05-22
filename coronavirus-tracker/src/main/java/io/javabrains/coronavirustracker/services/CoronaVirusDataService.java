@@ -42,11 +42,15 @@ public class CoronaVirusDataService {
             locationStats.setCountry(record.get("Country/Region"));
             locationStats.setLatestTotalCases(Integer.parseInt(record.get(record.size()-1)));
 
+            System.out.println(locationStats);
+            newStats.add(locationStats);
+
 //            String state = record.get("Province/State");
 //            System.out.println(state);
 //            String customerNo = record.get("CustomerNo");
 //            String name = record.get("Name");
         }
 
+        this.allStats = newStats;
     }
 }
