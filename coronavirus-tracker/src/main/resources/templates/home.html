@@ -22,9 +22,9 @@
         <th>Total cases reported</th>
     </tr>
     <tr th:each="locationStats : ${locationStates}">
-        <td th:text="${locationStats.state}">State</td>
-        <td th:text="${locationStats.country}">Country</td>
-        <td th:text="${locationStats.latestTotalCases}? #{true} : #{false}">yes</td>
+        <td th:text="${locationStats.state}"></td>
+        <td th:text="${locationStats.country}"></td>
+        <td th:text="${locationStats.latestTotalCases}">0</td>
     </tr>
 </table>
 
