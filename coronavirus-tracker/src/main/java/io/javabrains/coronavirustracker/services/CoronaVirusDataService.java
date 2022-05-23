@@ -29,7 +29,7 @@ public class CoronaVirusDataService {
 
     @PostConstruct
     @Scheduled(cron = "* * 1 * * *")
-    public void fetchVirusData() throws IOException, InterruptedException  {
+    public void fetchVirusData() throws IOException, InterruptedException {
         List<LocationStats> newStats = new ArrayList<>();
         HttpClient client = HttpClient.newHttpClient();
         HttpRequest request = HttpRequest.newBuilder()
@@ -39,20 +39,22 @@ public class CoronaVirusDataService {
 //        System.out.println(httpResponse.body());
 
         StringReader csvBodyReader = new StringReader(httpResponse.body());
-        @Deprecated
+
+//        @Deprecated
         Iterable<CSVRecord> records = CSVFormat.DEFAULT.withFirstRecordAsHeader().parse(csvBodyReader);
+
         for (CSVRecord record : records) {
-            LocationStats locationStats = new LocationStats();
-            locationStats.setState(record.get("Province/State"));
-            locationStats.setCountry(record.get("Country/Region"));
-            locationStats.setLatestTotalCases(Integer.parseInt(record.get(record.size()-1)));
+            LocationStats locationStat = new LocationStats();
+            locationStat.setState(record.get("Province/State"));
+            locationStat.setCountry(record.get("Country/Region"));
+            locationStat.setLatestTotalCases(Integer.parseInt(record.get(record.size()-1)));
             int latestCases = Integer.parseInt(record.get(record.size() - 1));
             int prevDayCases = Integer.parseInt(record.get(record.size() - 2));
-            locationStats.setLatestTotalCases(latestCases);
-            locationStats.setDiffFromPrevDay(latestCases - prevDayCases);
+            locationStat.setLatestTotalCases(latestCases);
+            locationStat.setDiffFromPrevDay(latestCases - prevDayCases);
 
-//            System.out.println(locationStats);
-            newStats.add(locationStats);
+//            System.out.println(locationStat);
+            newStats.add(locationStat);
 //            String state = record.get("Province/State");
 //            System.out.println(state);
 //            String customerNo = record.get("CustomerNo");
@@ -63,4 +65,4 @@ public class CoronaVirusDataService {
     }
 }
 
-// note dont save state/value in Spring services - make it stateless. 
+// note don't save state/value in Spring services - make it stateless.
