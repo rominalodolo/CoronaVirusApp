@@ -35,7 +35,7 @@
                 <th>Total cases reported</th>
                 <th>Changes since yesterday</th>
             </tr>
-            <tr th:each="locationStats : ${locationStates}">
+            <tr th:each="locationStat : ${locationStats}">
                 <td th:text="${locationStat.state}"></td>
                 <td th:text="${locationStat.country}"></td>
                 <td th:text="${locationStat.latestTotalCases}">0</td>
