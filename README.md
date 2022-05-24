@@ -87,6 +87,7 @@ Copying more code from Thymeleaf docs
 ![working](https://user-images.githubusercontent.com/83961643/169802110-4062587e-706c-4dd1-ac2f-c57fcefbd678.jpeg)
 
 # Deployment on Heroku 
+[Deploying Spring Boot Applications to Heroku](https://devcenter.heroku.com/articles/deploying-spring-boot-apps-to-heroku)
 
 
-LAST UPDATE: 
+LAST UPDATE: May 2022
