@@ -85,3 +85,8 @@ Copying more code from Thymeleaf docs
 
 ![workingapp](https://user-images.githubusercontent.com/83961643/169802092-8a575a1f-2dff-40d0-aa53-58206444bc7f.jpeg)
 ![working](https://user-images.githubusercontent.com/83961643/169802110-4062587e-706c-4dd1-ac2f-c57fcefbd678.jpeg)
+
+# Deployment
+
+
+LAST UPDATE: 
