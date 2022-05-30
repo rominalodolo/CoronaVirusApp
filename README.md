@@ -94,5 +94,8 @@ Copying more code from Thymeleaf docs
 ![downloadsteps](https://user-images.githubusercontent.com/83961643/170887219-6f6a35bf-0c1a-4cf0-b0d2-cd1c44c227e8.jpeg)
 ![success](https://user-images.githubusercontent.com/83961643/170887292-18d9d888-014f-4c23-85e4-26fce1664e71.jpeg)
 
+Getting an error with the upload 
+![fail](https://user-images.githubusercontent.com/83961643/171047204-3dce8bb6-b138-48f3-b5b2-9b59d59509c7.jpeg)
+
 
 LAST UPDATE: May 2022
