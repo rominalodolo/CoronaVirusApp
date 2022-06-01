@@ -97,5 +97,6 @@ Copying more code from Thymeleaf docs
 Getting an error with the upload 
 ![fail](https://user-images.githubusercontent.com/83961643/171047204-3dce8bb6-b138-48f3-b5b2-9b59d59509c7.jpeg)
 
+![failed](https://user-images.githubusercontent.com/83961643/171485797-4beeb7ff-e40d-4f59-a03c-bad1a775c738.jpeg)
 
 LAST UPDATE: May 2022
